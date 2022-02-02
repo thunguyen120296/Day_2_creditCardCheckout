@@ -25,9 +25,19 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+.credit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
 }
 .card__checkout{
     background-color: #eee;
     min-height: 900px;
+}
+
+@media screen and (max-width: 768px) {
+    .credit{
+        grid-template-columns: 1fr;
+    }
 }
