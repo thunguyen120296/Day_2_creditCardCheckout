@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+h1{
+    font-weight: 700;
+}
+i{
+    font-size: 2em;
+}
+label{
+    font-weight: 500;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card__checkout{
+    background-color: #eee;
+    min-height: 900px;
+}
